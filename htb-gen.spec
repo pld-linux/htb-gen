@@ -45,5 +45,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc FAQ README TODO
+%dir %{_sysconfdir}/htb-gen
 %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/htb-gen/*
 %attr(755,root,root) %{_bindir}/*
