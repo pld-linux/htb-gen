@@ -3,6 +3,7 @@
 # - package web-frontend
 #
 Summary:	htb-gen - easy bandwidth management tool
+Summary(pl):	htb-gen - ³atwe w u¿yciu narzêdzie do zarz±dzania pasmem
 Name:		htb-gen
 Version:	0.8.3
 Release:	0.5
@@ -15,19 +16,33 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-htb-gen is meant to be an easy, scalable, yet powerfull, bandwidth
+htb-gen is meant to be an easy, scalable, yet powerful, bandwidth
 management tool. You can set up/down portions of bandwith for each
-host or network, that goes trough your router/firewall.
-Prioritary traffic(web, mail, gaming, ftp, voip, streaming) is
-preferred over Junk traffic(kazaa, emule, etc). Also dynamic
-bandwith borrow and re-assignation is done betwen host thanks to
-htb boundaries.
-All bash based so it can be used in embedded routers/firewalls
+host or network, that goes through your router/firewall. Prioritary
+traffic (web, mail, gaming, FTP, VoIP, streaming) is preferred over
+Junk traffic (kazaa, emule, etc.). Also dynamic bandwith borrow and
+re-assignation is done between host thanks to HTB boundaries. All bash
+based so it can be used in embedded routers/firewalls
 (wired/wireless).
-Two backend are aviable:
 
-    * generates raw tc commands
-    * generates htb-init conf files (util for integration)
+Two backend are available:
+ - generates raw tc commands
+ - generates htb-init conf files (util for integration)
+
+%description -l pl
+htb-gen jest ³atwym w u¿yciu, skalowalnym lecz potê¿nym narzêdziem do
+zarz±dzania pasmem. Mo¿na przypisywaæ czê¶æ pasma w obu kierunkach dla
+poszczególnych hostów lub sieci pod³±czonych przez router/firewall.
+Ruch priorytetowy (WWW, poczta, gry, FTP, VoIP, strumienie) jest
+preferowany w stosunku do ruchu za¶miecaj±cego (kazaa, emule itp.).
+Dziêki ograniczeniom HTB mo¿liwe jest tak¿e dynamiczne po¿yczanie i
+przekazywanie pasma. Wszystko jest oparte na bashu, co pozwala na
+zastosowanie we wbudowanych routerach/firewallach (przewodowych lub
+bezprzewodowych).
+
+Dostêpne s± dwa backendy:
+ - generuj±cy czyste polecenia tc
+ - generuj±cy pliki konfiguracyjne htb-init (narzêdzia do integracji)
 
 %prep
 %setup -q -c
