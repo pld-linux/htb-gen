@@ -3,7 +3,7 @@
 # - package web-frontend
 #
 Summary:	htb-gen - easy bandwidth management tool
-Summary(pl):	htb-gen - ³atwe w u¿yciu narzêdzie do zarz±dzania pasmem
+Summary(pl.UTF-8):   htb-gen - Å‚atwe w uÅ¼yciu narzÄ™dzie do zarzÄ…dzania pasmem
 Name:		htb-gen
 Version:	0.8.3
 Release:	0.5
@@ -29,20 +29,20 @@ Two backend are available:
  - generates raw tc commands
  - generates htb-init conf files (util for integration)
 
-%description -l pl
-htb-gen jest ³atwym w u¿yciu, skalowalnym lecz potê¿nym narzêdziem do
-zarz±dzania pasmem. Mo¿na przypisywaæ czê¶æ pasma w obu kierunkach dla
-poszczególnych hostów lub sieci pod³±czonych przez router/firewall.
+%description -l pl.UTF-8
+htb-gen jest Å‚atwym w uÅ¼yciu, skalowalnym lecz potÄ™Å¼nym narzÄ™dziem do
+zarzÄ…dzania pasmem. MoÅ¼na przypisywaÄ‡ czÄ™Å›Ä‡ pasma w obu kierunkach dla
+poszczegÃ³lnych hostÃ³w lub sieci podÅ‚Ä…czonych przez router/firewall.
 Ruch priorytetowy (WWW, poczta, gry, FTP, VoIP, strumienie) jest
-preferowany w stosunku do ruchu za¶miecaj±cego (kazaa, emule itp.).
-Dziêki ograniczeniom HTB mo¿liwe jest tak¿e dynamiczne po¿yczanie i
+preferowany w stosunku do ruchu zaÅ›miecajÄ…cego (kazaa, emule itp.).
+DziÄ™ki ograniczeniom HTB moÅ¼liwe jest takÅ¼e dynamiczne poÅ¼yczanie i
 przekazywanie pasma. Wszystko jest oparte na bashu, co pozwala na
 zastosowanie we wbudowanych routerach/firewallach (przewodowych lub
 bezprzewodowych).
 
-Dostêpne s± dwa backendy:
- - generuj±cy czyste polecenia tc
- - generuj±cy pliki konfiguracyjne htb-init (narzêdzia do integracji)
+DostÄ™pne sÄ… dwa backendy:
+ - generujÄ…cy czyste polecenia tc
+ - generujÄ…cy pliki konfiguracyjne htb-init (narzÄ™dzia do integracji)
 
 %prep
 %setup -q -c
