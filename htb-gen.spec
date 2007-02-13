@@ -3,7 +3,7 @@
 # - package web-frontend
 #
 Summary:	htb-gen - easy bandwidth management tool
-Summary(pl.UTF-8):   htb-gen - łatwe w użyciu narzędzie do zarządzania pasmem
+Summary(pl.UTF-8):	htb-gen - łatwe w użyciu narzędzie do zarządzania pasmem
 Name:		htb-gen
 Version:	0.8.3
 Release:	0.5
